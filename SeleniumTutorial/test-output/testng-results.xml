@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-11T01:08:44Z" name="Suite" finished-at="2019-03-11T01:09:15Z" duration-ms="31719">
+    <groups>
+      <group name="Calculator">
+        <method signature="TestCases.test3()[pri:4, instance:paintTest.TestCases@4a7f959b]" name="test3" class="paintTest.TestCases"/>
+        <method signature="TestCases.test4()[pri:5, instance:paintTest.TestCases@4a7f959b]" name="test4" class="paintTest.TestCases"/>
+        <method signature="TestCases.test5()[pri:6, instance:paintTest.TestCases@4a7f959b]" name="test5" class="paintTest.TestCases"/>
+        <method signature="TestCases.test6()[pri:7, instance:paintTest.TestCases@4a7f959b]" name="test6" class="paintTest.TestCases"/>
+      </group> <!-- Calculator -->
+      <group name="FieldValidation">
+        <method signature="TestCases.test0()[pri:1, instance:paintTest.TestCases@4a7f959b]" name="test0" class="paintTest.TestCases"/>
+        <method signature="TestCases.test1()[pri:2, instance:paintTest.TestCases@4a7f959b]" name="test1" class="paintTest.TestCases"/>
+        <method signature="TestCases.test2()[pri:3, instance:paintTest.TestCases@4a7f959b]" name="test2" class="paintTest.TestCases"/>
+      </group> <!-- FieldValidation -->
+    </groups>
+    <test started-at="2019-03-11T01:08:44Z" name="Default test" finished-at="2019-03-11T01:09:15Z" duration-ms="31719">
+      <class name="paintTest.TestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:44Z" name="setUp" finished-at="2019-03-11T01:08:47Z" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test0()[pri:1, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:47Z" name="test0" description="Verify Negative values are not accepted" finished-at="2019-03-11T01:08:48Z" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:48Z" name="quit" finished-at="2019-03-11T01:08:48Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:48Z" name="setUp" finished-at="2019-03-11T01:08:51Z" duration-ms="2190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:2, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:51Z" name="test1" description="Verify Blank values are not accepted" finished-at="2019-03-11T01:08:51Z" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:51Z" name="quit" finished-at="2019-03-11T01:08:51Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:51Z" name="setUp" finished-at="2019-03-11T01:08:54Z" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test2()[pri:3, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:54Z" name="test2" description="Verify Decimal values are not accepted" finished-at="2019-03-11T01:08:54Z" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:54Z" name="quit" finished-at="2019-03-11T01:08:55Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:55Z" name="setUp" finished-at="2019-03-11T01:08:57Z" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test3()[pri:4, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:57Z" name="test3" description="Single Room with integer values" finished-at="2019-03-11T01:08:59Z" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:08:59Z" name="quit" finished-at="2019-03-11T01:09:00Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:00Z" name="setUp" finished-at="2019-03-11T01:09:02Z" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test4()[pri:5, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:02Z" name="test4" description="Single Room with decimal values" finished-at="2019-03-11T01:09:04Z" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:04Z" name="quit" finished-at="2019-03-11T01:09:04Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:04Z" name="setUp" finished-at="2019-03-11T01:09:06Z" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test5()[pri:6, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:06Z" name="test5" description="Multiple Rooms Calculations" finished-at="2019-03-11T01:09:11Z" duration-ms="4556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:11Z" name="quit" finished-at="2019-03-11T01:09:11Z" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:11Z" name="setUp" finished-at="2019-03-11T01:09:13Z" duration-ms="1985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test6()[pri:7, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:13Z" name="test6" description="Rounding Calculation" finished-at="2019-03-11T01:09:15Z" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:paintTest.TestCases@4a7f959b]" started-at="2019-03-11T01:09:15Z" name="quit" finished-at="2019-03-11T01:09:15Z" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- paintTest.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Suite -->
+</testng-results>

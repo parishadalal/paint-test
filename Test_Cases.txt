@@ -1,0 +1,33 @@
+PaintCalulator
+	Paint Calulator takes the length, width and height of every room and calculates the total gallons of paint required.
+
+Case: 
+1 room calculation
+	When I place "1" number of rooms and I set the dimensions for room 1 as 20 length 20 width and 5 height and I submit dimensions
+	then the area to paint for room 1 is 400 feet and I should see a result of 1 gallons
+
+Case: 
+Less than 400ft calculation with decimal values
+	When I place "1" number of rooms and I set the dimensions for room 1 as 10.2 length 10.9 width and 2.5 height
+	And I submit dimensions
+	Then the area to paint for room 1 is 105.5 feet
+	And I should see a result of 1 gallons
+
+
+Case: 
+3 room calculation
+	When I place "3" number of rooms and I set the dimensions for room 1 as 20 length 40 width and 5 height
+                                     and I set the dimensions for room 2 as 20 length 20 width and 6 height 
+				     and I set the dimensions for room 3 as 40 length 40 width and 10 height and I submit dimensions
+	then the area to paint for room 1 is 600 feet
+	then the area to paint for room 2 is 480 feet 
+	then the area to paint for room 3 is 1600 feet  and I should see a result of 8 gallons
+
+
+Case: 
+Rounding calculation
+	When I place "1" number of rooms and I set the dimensions for room 1 as 25 length 25 width and 5 height and I submit dimensions
+	then the area to paint for room 1 is 500 feet and I should see a result of 2 gallons
+
+
+

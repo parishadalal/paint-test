@@ -1,0 +1,26 @@
+FieldValidation
+	Paint calculator rejects invalid numbers
+
+Observation: 
+    On the Index page negative value 
+	When I put "-1" number of rooms then a rejection came
+	
+Observation: 
+    On the Index page decimal value 
+	When I put "2.3" number of rooms then a rejection came
+
+Observation: 
+    On the Index page empty value 
+	When I leave number of rooms blank and submit then a rejection came
+	
+Observation: 
+    On the Dimension page negative value
+	When I put a negative length/ width / height then a rejection came
+
+Observation: 
+    On the Dimension page decimal value
+	When I put a decimal for length then a rejection came
+
+Observation: 
+    On the Dimension page empty value
+	When I put length blank then a rejection came
